@@ -9,12 +9,12 @@ PHP 4+
 ## How To Get Started
 
  1). 取 100 組 4 位數的純數字密碼 : 
- 	 => $Password->make(100, 4, 'num');
- 	 => Output : 2145
+   => $Password->make(100, 4, 'num');
+   => Output : 2145
       
  2). 取 100 組 4 位數的英文密碼 :
-     => $Password->make(100, 4, 'eng');
- 	 => Output : aBcD   
+   => $Password->make(100, 4, 'eng');
+   => Output : aBcD   
 
  3). 取 100 組 4 位數的英數字混合密碼 : 
  	 => $Password->make(100, 4, 'mix');     
