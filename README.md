@@ -8,6 +8,8 @@ PHP 4+
 
 ## How To Get Started
 
+````PHP
+<?php
  1). 取 100 組 4 位數的純數字密碼 : 
    => $Password->make(100, 4, 'num');
    => Output : 2145
@@ -26,6 +28,8 @@ PHP 4+
   
  5). 測試執行時間( 秒數 ) : 
  	 => $Password->runTime(取得組數, 密碼長度, 密碼模式, 回傳或傾印);  
+?>
+````
 
 ## Version
 
